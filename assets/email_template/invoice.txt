@@ -1,0 +1,278 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <meta name="format-detection" content="telephone=no"/>
+
+    <!-- Responsive Mobile-First Email Template by Konstantin Savchenko, 2015.
+    https://github.com/konsav/email-templates/  -->
+
+    <style>
+/* Reset styles */ 
+body { margin: 0; padding: 0; min-width: 100%; width: 100% !important; height: 100% !important;}
+body, table, td, div, p, a { -webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height: 100%; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; border-spacing: 0; }
+img { border: 0; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+#outlook a { padding: 0; }
+.ReadMsgBody { width: 100%; } .ExternalClass { width: 100%; }
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+
+/* Rounded corners for advanced mail clients only */ 
+@media all and (min-width: 560px) {
+    .container { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -khtml-border-radius: 8px;}
+}
+
+/* Set color for auto links (addresses, dates, etc.) */ 
+a, a:hover {
+    color: #127DB3;
+}
+.footer a, .footer a:hover {
+    color: #999999;
+}
+a {
+text-decoration: none !important
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body {
+font-family: 'Open Sans', sans-serif;
+}
+    </style>
+
+    <!-- MESSAGE SUBJECT -->
+    <title>Email</title>
+
+</head>
+
+<!-- BODY -->
+<!-- Set message background color (twice) and text color (twice) -->
+<body topmargin="0" rightmargin="0" bottommargin="0" leftmargin="0" marginwidth="0" marginheight="0" width="100%" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; width: 100%; height: 100%; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height: 100%;
+    background-color: #F0F0F0;
+    color: #000000;"
+    bgcolor="#F0F0F0"
+    text="#000000">
+
+<!-- SECTION / BACKGROUND -->
+<!-- Set message background color one again -->
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; width: 100%;" class="background"><tr><td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;"
+    bgcolor="#F0F0F0">
+
+<!-- WRAPPER -->
+<!-- Set wrapper width (twice) -->
+
+
+<!-- WRAPPER / CONTEINER -->
+<!-- Set conteiner background color -->
+<table border="0" cellpadding="0" cellspacing="0" align="center"
+    bgcolor="#FFFFFF"
+    width="560" style="border-collapse: collapse; border-spacing: 0; padding: 0; width: inherit;
+    max-width: 560px;" class="container">
+
+    <!-- HEADER -->
+    <!-- Set text color and font family ("sans-serif" or "Georgia, serif") -->
+    <tr>
+        <td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 24px; font-weight: bold; line-height: 130%;
+            padding-top: 25px;
+            color: #000000;
+            font-family: sans-serif;" class="header">
+            <img src="https://devstg.assetswatch.com/static/media/logo.0ff28e2f.png">
+        </td>
+    </tr>
+    
+    <!-- SUBHEADER -->
+    <!-- Set text color and font family ("sans-serif" or "Georgia, serif") -->
+    <tr style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; margin: 0;">
+                    <td class="content-block aligncenter"
+                                        style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; vertical-align: top; text-align: center; margin: 0; padding: 0 0;"
+                                        align="center" valign="top"><table class="invoice"
+                                               style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; text-align: left; width: 80%; margin: 40px auto;">
+                        <tr style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; margin: 0;">
+                        <td style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; vertical-align: top; margin: 0; padding: 10px 0;"
+                                                    valign="top">[ADDRESS]<br/>Invoice [INVOICE]<br/>[INVOICE_DATE]</td>
+                      </tr>
+                        <tr style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; margin: 0;">
+                        <td style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; vertical-align: top; margin: 0; padding: 10px 0;"
+                                                    valign="top"><table class="invoice-items" cellpadding="0" cellspacing="0"
+                                                           style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; width: 100%; margin: 0;">
+                            <tr style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; margin: 0;">
+                              <td style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; vertical-align: top; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 10px 0;"
+                                                                valign="top">[TITLE] </td>
+                              <td class="alignright"
+                                                                style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 5px 0;"
+                                                                align="right" valign="top">$ [AMOUNT] </td>
+                            </tr>
+                            <tr style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; margin: 0;">
+                              <td style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; vertical-align: top; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 10px 0;"
+                                                                valign="top">Tax </td>
+                              <td class="alignright"
+                                                                style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; vertical-align: top; text-align: right; border-top-width: 1px; border-top-color: #eee; border-top-style: solid; margin: 0; padding: 10px 0;"
+                                                                align="right" valign="top">$ [TAX_AMOUNT] </td>
+                            </tr>
+                           
+                            <tr class="total"
+                                                            style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; margin: 0;">
+                              <td class="alignright" width="80%"
+                                                                style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; vertical-align: top; text-align: right; border-top-width: 2px; border-top-color: #333; border-top-style: solid; border-bottom-color: #333; border-bottom-width: 2px; border-bottom-style: solid; font-weight: 700; margin: 0; padding: 10px 0;"
+                                                                align="right" valign="top">Total </td>
+                              <td class="alignright"
+                                                                style="font-family: 'Open Sans', sans-serif; box-sizing: border-box; font-size: 15px; vertical-align: top; text-align: right; border-top-width: 2px; border-top-color: #333; border-top-style: solid; border-bottom-color: #333; border-bottom-width: 2px; border-bottom-style: solid; font-weight: 700; margin: 0; padding: 10px 0;"
+                                                                align="right" valign="top">$ [TOTAL_AMOUNT] </td>
+                            </tr>
+                          </table></td>
+                      </tr>
+                      </table></td>
+                  </tr>
+    
+    <!-- LINE -->
+    <!-- Set line color -->
+    <tr>    
+        <td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
+            padding-top: 0px;" class="line"><hr
+            color="#E0E0E0" align="center" width="100%" size="1" noshade style="margin: 0; padding: 0;" />
+        </td>
+    </tr>
+
+    <!-- LIST -->
+    
+    
+<tr>
+        <td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
+            padding-top: 25px;" class="social-icons"><table
+            width="256" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse; border-spacing: 0; padding: 0;">
+            <tr>
+
+                <!-- ICON 1 -->
+                <td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+                    href="#"
+                style="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+                    color: #000000;"
+                    alt="F" title="Facebook"
+                    width="44" height="44"
+                    src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/facebook.png"></a></td>
+
+                <!-- ICON 2 -->
+                <td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+                    href="#"
+                style="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+                    color: #000000;"
+                    alt="T" title="Twitter"
+                    width="44" height="44"
+                    src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/twitter.png"></a></td>             
+
+                <!-- ICON 3 -->
+                <td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+                    href="#"
+                style="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+                    color: #000000;"
+                    alt="G" title="Google Plus"
+                    width="44" height="44"
+                    src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/googleplus.png"></a></td>      
+
+                <!-- ICON 4 -->
+                <td align="center" valign="middle" style="margin: 0; padding: 0; padding-left: 10px; padding-right: 10px; border-collapse: collapse; border-spacing: 0;"><a target="_blank"
+                    href="#"
+                style="text-decoration: none;"><img border="0" vspace="0" hspace="0" style="padding: 0; margin: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: inline-block;
+                    color: #000000;"
+                    alt="I" title="Instagram"
+                    width="44" height="44"
+                    src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/instagram.png"></a></td>
+
+            </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- PARAGRAPH -->
+     <tr>
+        <td align="center" valign="top" style="border-collapse: collapse;border-spacing: 0;margin: 0;padding: 0;padding-left: 6.25%;padding-right: 6.25%;width: 87.5%;font-size: 15px;font-weight: 400;line-height: 160%;padding-top: 13px;padding-bottom: 5px;color: #000000;text-transform: capitalize;font-family: 'Open Sans', sans-serif;" class="paragraph">
+               this is an auto generated email please do not reply
+        </td>
+    </tr>
+    <!-- Set text color and font family ("sans-serif" or "Georgia, serif"). Duplicate all text styles in links, including line-height -->
+    <tr>
+        <td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 17px; font-weight: 400; line-height: 160%;
+            padding-top: 5px;
+            padding-bottom: 15px;
+            color: #000000;
+            font-family: sans-serif;" class="paragraph">
+                <a href="#" target="_blank" style="color: #57bb57;font-family: 'Open Sans', sans-serif; font-size: 17px; font-weight: 400; line-height: 160%;text-decoration: underline !important">www.assetswatch.com</a>
+        </td>
+    </tr>
+<!-- End of WRAPPER -->
+</table>
+
+<!-- WRAPPER -->
+<!-- Set wrapper width (twice) -->
+<table border="0" cellpadding="0" cellspacing="0" align="center"
+    width="560" style="border-collapse: collapse; border-spacing: 0; padding: 0; width: inherit;
+    max-width: 560px;" class="wrapper">
+
+    <!-- SOCIAL NETWORKS -->
+    <!-- Image text color should be opposite to background color. Set your url, image src, alt and title. Alt text should fit the image size. Real image size should be x2 -->
+    
+
+    <!-- FOOTER -->
+    <!-- Set text color and font family ("sans-serif" or "Georgia, serif"). Duplicate all text styles in links, including line-height -->
+    
+
+<!-- End of WRAPPER -->
+</table>
+
+<!-- End of SECTION / BACKGROUND -->
+</td></tr></table>
+
+</body>
+</html>
